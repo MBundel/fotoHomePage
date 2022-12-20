@@ -1,6 +1,6 @@
 import { useEffect, useState } from "react";
-import GalleryPic from "../../macromodules/GalleryPic";
-import EndOfPage from "../../macromodules/EndOfPage";
+import GalleryPic from "../../components/macromodules/GalleryPic";
+import EndOfPage from "../../components/macromodules/EndOfPage";
 
 function Instagram() {
   const [feeds, setFeed] = useState<any[]>([]);

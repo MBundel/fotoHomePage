@@ -1,8 +1,5 @@
-import { FaBeer } from "react-icons/fa";
 
-import PortfolioData from "../../DataStore/PortfolioData";
-import TestArray from "../../DataStore/TestArray";
-import FilterCheckboxBar from "../../macromodules/FilterCheckboxBar";
+
 
 // my list of shootings
 const shooting = [

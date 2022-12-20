@@ -1,8 +1,8 @@
 import { Link, useParams } from "react-router-dom";
 import PortfolioData from "../../DataStore/PortfolioData";
-import { UsualButton } from "../../micromodules/Buttons";
+import { UsualButton } from "../../components/micromodules/Buttons";
 
-import "../../../styles/singleShooting.css";
+import "../../styles/singleShooting.css";
 
 export const SingleShooting = () => {
   const { portfolioId } = useParams();

@@ -1,8 +1,8 @@
 import React from "react";
-import { UsualButton } from "../../micromodules/Buttons";
+import { UsualButton } from "../../components/micromodules/Buttons";
 
 // import css
-import "../../../styles/main.css";
+import "../../styles/main.css";
 
 function Home() {
   return (

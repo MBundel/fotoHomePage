@@ -1,13 +1,13 @@
-import Tile from "../../macromodules/Tile";
+import Tile from "../../components/macromodules/Tile";
 
 import PortfolioData from "../../DataStore/PortfolioData";
 import { useState } from "react";
 import { motion, AnimatePresence } from "framer-motion";
 
 // import css
-import "../../../styles/main.css";
-import FilterCheckboxBar from "../../macromodules/FilterCheckboxBar";
-import EndOfPage from "../../macromodules/EndOfPage";
+import "../../styles/main.css";
+import FilterCheckboxBar from "../../components/macromodules/FilterCheckboxBar";
+import EndOfPage from "../../components/macromodules/EndOfPage";
 
 // filtered tags for checkboxes tag
 const tags = [...new Set(PortfolioData.map(({ tag }) => tag).flat(1))];

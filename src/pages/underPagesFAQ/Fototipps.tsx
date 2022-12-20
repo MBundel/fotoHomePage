@@ -1,9 +1,9 @@
 import React from "react";
-import { UsualButton } from "../../micromodules/Buttons";
+import { UsualButton } from "../../components/micromodules/Buttons";
 
 // import css
-import "../../../styles/main.css";
-import Tile from "../../macromodules/Tile";
+import "../../styles/main.css";
+import Tile from "../../components/macromodules/Tile";
 
 function ÜberMich() {
   return (

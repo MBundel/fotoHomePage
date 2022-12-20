@@ -3,7 +3,7 @@ import { motion } from "framer-motion";
 import CountUp from "react-countup";
 
 // import css
-import "../../../styles/main.css";
+import "../../styles/main.css";
 
 //import react icons
 import { RiWhatsappLine } from "react-icons/ri";

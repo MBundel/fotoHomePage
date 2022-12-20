@@ -1,9 +1,8 @@
-import React from "react";
-import { motion } from "framer-motion";
-import Tile from "../../macromodules/Tile";
+
+import Tile from "../../components/macromodules/Tile";
 import * as MainArrays from "../../DataStore/TilesArray";
 // import css
-import "../../../styles/main.css";
+import "../../styles/main.css";
 
 const wList = ["er", "ie", "as", "ieso", "eshalb", "arum"];
 
