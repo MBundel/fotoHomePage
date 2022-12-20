@@ -1,0 +1,35 @@
+@import "colorscheme";
+
+.gallery {
+  width: 175px;
+  height: 175px;
+  background-color: none;
+  border-radius: 15px;
+  align-items: center;
+  justify-content: center;
+  margin: 1rem;
+  overflow: hidden;
+  display: flex;
+  position: relative;
+  transition: 500ms;
+  padding: 0;
+
+  &__img {
+    // min-height: 175px;
+    max-height: 262px;
+    // min-width: 175px;
+    max-width: 262px;
+    filter: grayscale(100%);
+    transition: 500ms;
+  }
+  &:hover {
+    transition: 500ms;
+   
+
+  }
+  &:hover &__img {
+    scale: .7;
+    transition: 500ms;
+    filter: grayscale(0%);
+  }
+}

@@ -1,0 +1,53 @@
+.primaryButton {
+  color: #ffffff;
+  background-color: #000000;
+  border-radius: 2rem;
+  font-size: 1.5rem;
+  border: 0;
+  padding: 0.5rem;
+  margin-left: 0.5rem;
+  margin-right: 0.5rem;
+  margin-top: 0.25rem;
+  margin-bottom: 0.25rem;
+  font-family: "Raleway", sans-serif;
+}
+.primaryButton:hover {
+  background-color: #fca311;
+  color: #e5e5e5;
+  transition: 500ms;
+  scale: 1.1;
+}
+.primaryButton:active {
+  scale: 0.95;
+  transition: 300ms;
+  box-shadow: 1px 1px 30px #fca311;
+}
+
+.fancyButton {
+  font-size: 1.5rem;
+  border: 0;
+  padding: 0.5rem;
+  margin-left: 0.5rem;
+  margin-right: 0.5rem;
+  margin-top: 0.25rem;
+  margin-bottom: 0.25rem;
+  font-family: "Raleway", sans-serif;
+  color: #e5e5e5;
+  background-color: #fca311;
+  box-shadow: 0px 0px 10px #14213d;
+  border-radius: 0.5vh;
+}
+.fancyButton:hover {
+  background-color: #14213d;
+  color: #e5e5e5;
+  transition: 500ms;
+  scale: 1.1;
+  box-shadow: 1px 1px 10px #fca311;
+}
+.fancyButton:active {
+  scale: 1;
+  transition: 100ms;
+  box-shadow: 1px 1px 30px #fca311;
+  color: #fca311;
+  border-radius: 1vh;
+}/*# sourceMappingURL=buttons.css.map */

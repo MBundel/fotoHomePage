@@ -1,0 +1,15 @@
+@import "./colorscheme" ;
+@import "micro";
+
+.navbar{
+@include flexCenter;
+justify-content: center;
+background-color: $background;
+padding: 1rem;
+width: 100%;
+border: none;
+position: fixed;
+z-index: 99;
+top: 0;
+
+}

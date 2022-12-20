@@ -1,0 +1,48 @@
+@import "colorscheme";
+
+.singleShooting {
+  &__main {
+    
+    margin-top: 300px;
+    // background-color: red;
+    width: 80%;
+    margin: auto;
+    justify-content: center;
+    align-items: center;
+  }
+  &__imgLib{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    max-width: 80%;
+    margin: auto;
+  }
+}
+.imgDarken {
+  filter: brightness(20%) grayscale(100%);
+}
+
+.portfolioImgs {
+  max-width: 95%;
+  max-height: 95%;
+  transition: 500ms;
+  filter: blur(1px) grayscale(100%);
+
+  &:hover{
+    transform:  scale(2.1);
+    transition: 1000ms;
+    filter: none;
+    z-index: 99;
+  }
+}
+.portfolioImg__Container {
+  display: flex;
+  height: 200px;
+  width: 200px;
+//   background-color: $background;
+  justify-content: center;
+  align-items: center;
+  margin: 10px;
+  border: 1px solid $detail;
+  border-radius: 10px;
+}

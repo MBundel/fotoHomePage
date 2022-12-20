@@ -1,0 +1,28 @@
+.gallery {
+  width: 175px;
+  height: 175px;
+  background-color: none;
+  border-radius: 15px;
+  align-items: center;
+  justify-content: center;
+  margin: 1rem;
+  overflow: hidden;
+  display: flex;
+  position: relative;
+  transition: 500ms;
+  padding: 0;
+}
+.gallery__img {
+  max-height: 262px;
+  max-width: 262px;
+  filter: grayscale(100%);
+  transition: 500ms;
+}
+.gallery:hover {
+  transition: 500ms;
+}
+.gallery:hover .gallery__img {
+  scale: 0.7;
+  transition: 500ms;
+  filter: grayscale(0%);
+}/*# sourceMappingURL=galleryPic.css.map */

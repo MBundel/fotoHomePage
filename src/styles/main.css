@@ -1,0 +1,245 @@
+@-webkit-keyframes opacity {
+  0%, 100% {
+    opacity: 0;
+  }
+  50% {
+    opacity: 1;
+  }
+}
+@-webkit-keyframes change {
+  0%, 100% {
+    transform: translate3d(0, 78%, 0);
+  }
+  10%, 90% {
+    transform: translate3d(0, 62%, 0);
+  }
+  20%, 80% {
+    transform: translate3d(0, 45%, 0);
+  }
+  30%, 70% {
+    transform: translate3d(0, 29%, 0);
+  }
+  40%, 60% {
+    transform: translate3d(0, 12%, 0);
+  }
+  50% {
+    transform: translate3d(0, -5%, 0);
+  }
+}
+@keyframes opacity {
+  0%, 100% {
+    opacity: 0;
+  }
+  50% {
+    opacity: 1;
+  }
+}
+@keyframes change {
+  0%, 100% {
+    transform: translate3d(0, 78%, 0);
+  }
+  10%, 90% {
+    transform: translate3d(0, 62%, 0);
+  }
+  20%, 80% {
+    transform: translate3d(0, 45%, 0);
+  }
+  30%, 70% {
+    transform: translate3d(0, 29%, 0);
+  }
+  40%, 60% {
+    transform: translate3d(0, 12%, 0);
+  }
+  50% {
+    transform: translate3d(0, -5%, 0);
+  }
+}
+h1 {
+  color: #ffffff;
+}
+
+.body {
+  background-color: #000000;
+  position: fixed;
+  width: 100%;
+  height: auto;
+}
+
+.backgroundIMG {
+  width: 100%;
+  position: fixed;
+  filter: grayscale(100%);
+  top: -25%;
+  z-index: -99;
+}
+
+.centerblock {
+  width: 60%;
+  height: auto;
+  background-color: none;
+  margin-left: 20%;
+  margin-top: 20vh;
+  position: absolute;
+}
+.centerblock__animation {
+  display: flex;
+  align-items: center;
+  justify-items: center;
+  text-align: center;
+  margin: auto;
+  background-color: #000000;
+  color: #ffffff;
+  width: 600px;
+  height: 100px;
+  font-weight: 600;
+  overflow: hidden;
+  height: 40px;
+  padding: 0rem 0rem 0.32rem 1rem;
+}
+.centerblock__animation:before {
+  content: "[";
+  left: 0;
+}
+.centerblock__animation:after {
+  content: "]";
+  position: relative;
+  top: 100px;
+  right: 0;
+}
+.centerblock__animation:after, .centerblock__animation:before {
+  position: relative;
+  top: 0;
+  color: #fca311;
+  font-size: 42px;
+  line-height: 40px;
+  -webkit-animation-name: opacity;
+  -webkit-animation-duration: 2s;
+  -webkit-animation-iteration-count: infinite;
+  animation-name: opacity;
+  animation-duration: 2s;
+  animation-iteration-count: infinite;
+  animation-name: opacity;
+  animation-duration: 2s;
+  animation-iteration-count: infinite;
+}
+.centerblock__animation__text {
+  display: inline;
+  float: left;
+  margin: 0;
+  font-size: 35px;
+}
+.centerblock__animation__list {
+  margin-top: -140px;
+  padding-left: 0px;
+  text-align: left;
+  list-style: none;
+  font-size: 35px;
+  -webkit-animation-name: change;
+  -webkit-animation-duration: 1s;
+  -webkit-animation-iteration-count: infinite;
+  animation-name: change;
+  -webkit-animation-duration: 10s;
+          animation-duration: 10s;
+  animation-iteration-count: infinite;
+}
+.centerblock__animation__list__item {
+  line-height: 40px;
+  margin: 0;
+}
+.centerblock__content {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+}
+
+.sidetext {
+  display: inline;
+  font: "Raleway", sans-serif;
+  color: #ffffff;
+  background-color: #000000;
+  padding: 1vh;
+  display: flex;
+  justify-content: center;
+}
+
+.sidetext > p {
+  text-justify: inherit;
+  text-align: end;
+}
+
+.sideblock {
+  margin-left: 10%;
+  margin-top: 10%;
+  margin-bottom: 10%;
+  position: absolute;
+  border-radius: 1vh;
+  width: 75vh;
+  height: -webkit-fit-content;
+  height: -moz-fit-content;
+  height: fit-content;
+}
+.sideblock__text {
+  -webkit-backdrop-filter: blur(2px);
+          backdrop-filter: blur(2px);
+  background-color: rgba(255, 255, 255, 0.2);
+}
+
+.linkIcon {
+  color: #000000;
+  border-radius: 4vh;
+  transition: 1000ms;
+}
+.linkIcon:hover {
+  scale: 1.1;
+  color: #fca311;
+  transition: 750ms;
+  cursor: pointer;
+}
+.linkIcon:active {
+  scale: 0.9;
+  box-shadow: 1vh 1vh 30vh 5vh #14213d;
+  background-color: #fca311;
+  transition: 100ms;
+  color: #000000;
+  cursor: none;
+}
+
+.infobox {
+  background-color: none;
+  width: 30rem;
+  height: 10rem;
+  border: 3px solid #14213d;
+  border-radius: 1.5rem;
+  display: flex;
+  position: absolute;
+  top: 25%;
+  left: 150px;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+  transition: 1000ms linear;
+  box-shadow: 0px 0px 0px 0px #ffffff;
+}
+.infobox:hover {
+  border: 0.2rem solid #fca311;
+  transition: 500ms;
+}
+.infobox:active {
+  border: 3px solid #fca311;
+  box-shadow: 0px 0px 400px 500px #ffffff;
+  background-color: #ffffff;
+  transition: 50ms;
+}
+.infobox__content {
+  margin: 2rem;
+}
+
+.textLink {
+  color: #14213d;
+  text-decoration: underline;
+  -webkit-text-decoration-color: #fca311;
+          text-decoration-color: #fca311;
+}
+.textLink:visited {
+  color: #14213d;
+}/*# sourceMappingURL=main.css.map */

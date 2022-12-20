@@ -1,0 +1,15 @@
+.navbar {
+  display: flex;
+  align-items: center;
+  justify-items: center;
+  text-align: center;
+  margin: auto;
+  justify-content: center;
+  background-color: #000000;
+  padding: 1rem;
+  width: 100%;
+  border: none;
+  position: fixed;
+  z-index: 99;
+  top: 0;
+}/*# sourceMappingURL=navbar.css.map */

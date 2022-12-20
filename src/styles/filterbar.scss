@@ -1,0 +1,25 @@
+@import "colorscheme";
+
+.filterbar {
+  min-width: 80%;
+  min-height: 10px;
+  border: 1px solid $detail;
+  border-radius: 10px;
+  // background-color: red;
+  margin: 10px auto 10px auto;
+  padding: 10px;
+}
+
+.checkbox {
+  accent-color: $accent;
+  width: 1.2rem;
+  height: 1.2rem;
+
+  background-color: $detail;
+}
+
+label {
+  align-items: center;
+  justify-content: center;
+  font-size: 1.5rem;
+}
